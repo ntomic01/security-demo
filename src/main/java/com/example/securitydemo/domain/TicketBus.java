@@ -22,4 +22,6 @@ public class TicketBus {
     @ManyToOne
     @JoinColumn(name = "system_user_id")
     private SystemUser systemUser;
+
+    private Long numberOfSeat;
 }
